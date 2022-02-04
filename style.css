@@ -1,14 +1,26 @@
 body{}
 
-div{width:300px;height:40px;}
-.header{background-color:red;}
+button{background-color:#3882f6;color:white;}
 
-.main{background-color:blue;}
+.header, .main, .footer{background-color:#1f2937;}
 
-.infoboxes{background-color:green;}
+.main h2{font-size:48px;
+         color:#f9faf8;
+        font-weight:bolder;}
 
-.quote{background-color:pink;}
+.header li, .main p{font-size:18px; 
+           color:#e5e7eb;}
 
-.signup{background-color:yellow;}
+.main{}
 
-.footer{background-color:silver;}
+.infoboxes{background-color:white;}
+.infoboxes h3{font-size:36px;color:#1f2937;font-weight:bolder;}
+
+.quote{background-color:#e5e7eb;}
+
+.quote p{font-size:36px;
+color:#1F2937;
+font-style:italic;}
+
+.signup{background-color:#3882f6;}
+
