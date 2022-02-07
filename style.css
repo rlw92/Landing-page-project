@@ -5,8 +5,9 @@ button{background-color:#3882f6;color:white;padding:12px;}
 .header, .main, .footer{background-color:#1f2937;}
 
 .header{display:flex;justify-content:center;align-items:center;}
-.header ul{display:flex;list-style:none;margin-left:auto;padding-right:6px;gap:6px;}
+.header ul{display:flex;list-style:none;margin-left:auto;padding-right:12px;gap:6px;}
 a{text-decoration:none;color:white;}
+img{border-radius:5%;}
 .header img{width:80px;padding-left:10px;}
 
 .main h2{font-size:48px;
@@ -16,12 +17,12 @@ a{text-decoration:none;color:white;}
 .header li a, .main p{font-size:18px; 
            color:#e5e7eb;}
 
-.main{display:flex;flex-direction:row-reverse;justify-content:center;gap:8px;padding:12px;}
+.main{display:flex;flex-direction:row-reverse;justify-content:center;gap:12px;padding:12px;}
 .main img{max-width:400px;flex:1;}
 .maincontent{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:6px;width:300px;}
 .maincontent h{text-align:center;}
 
-.infoboxes{background-color:white;display:flex;justify-content:center;align-items:center;gap:150px;}
+.infoboxes{background-color:white;display:flex;justify-content:center;align-items:center;gap:100px;}
 .infoboxes img{max-width:120px;height:120px;border:solid blue 2px;}
 .box{display:flex;flex-direction:column;align-items:center;text-align:center;}
 .box a{color:black;}
@@ -36,5 +37,13 @@ font-style:italic;display:flex;flex-direction:column;
 }
 .quote p strong{align-self:flex-end;}
 
-.signup{background-color:#3882f6;}
+.signupcontainer{background-color:white;display:flex;justify-content:center;align-items:center;padding:20px;}
+.signup{color:white;background-color:#3882f6;padding:30px;
+        display:flex;justify-content: space-between;align-items:flex-end;
+        gap:20px;}
+.signup p{margin:0;}
+
+.footer{display:flex;justify-content: center;align-items: center;color:white;padding:10px;}
+
+
 
